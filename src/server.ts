@@ -1,6 +1,6 @@
 import express from "express";
 import { serverConfig } from "./config";
-import pingRouter from "./router/ping.router";
+import pingRouter from "./routers/ping.router";
 
 const app = express();
 
